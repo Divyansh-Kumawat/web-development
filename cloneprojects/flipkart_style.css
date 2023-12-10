@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Pixelify+Sans&family=Playfair+Display&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 8vh;
+    font-family: 'Dela Gothic One', sans-serif;
+    width: 100vw;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+  background-color: var(--main-bg-color);
+  font-family: 'Dela Gothic One', sans-serif;
+
+}
+.slider{
+    overflow: hidden;
+}
+
+nav ul li{
+     list-style: none;
+     padding: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+nav ul{
+    height: 12vh;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+
+.container{
+    min-height: 82vh;
+}
+
+
+
+input{
+    width: 40vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin: 2vw 0 2vw 5vw;
+}
+
+.btn{
+    padding:1vh 2vh;
+    color: white;
+    background-color: #4156ff;
+    cursor: pointer;
+  border: 1px solid yellow;
+  font-weight: bolder;
+}
+
+.container .slider img{
+    height: 30vh;
+    width: 80vw;
+    margin: 0vw 10vw;
+}
+
+heading{
+    margin: 3vh 9vh;
+}
+
+.card-items{
+    width: 30vh;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-items:hovar{
+    width: 31vh;
+
+    
+}

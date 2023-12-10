@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+}
+.right{
+    height: 90vh;
+    background-color: green;
+    display: inline-block;
+    width: 50%;
+    
+}
+.left{
+    height: 90vh;
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+    
+}
+.p{
+    color: blue;
+}
+footer{
+    background-color: #eed305;
+    font-family: Dela Gothic One;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navbar nav ul li a{
+    color: aqua;
+    text-decoration: none;
+}
+.navbar nav ul li{
+    display: inline-block;
+    margin:26px;
+}

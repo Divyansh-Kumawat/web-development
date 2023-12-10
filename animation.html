@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .container{
+            background-color:rgb(236, 236, 30);
+            height: 100vh;
+            width: 100vw;
+
+        }
+        .box{
+            height: 344px;
+            width: 433px;
+            display: flex;
+            background-color: #e61212;
+            align-items: center;
+            justify-content: center;
+            animation-name: deekay;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-in-out;
+            
+        }
+        @keyframes deekay {
+            from{
+                width: 433px;
+            }
+            to{
+                width: 700px;
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">Fuck OFF</div>
+    </div>
+</body>
+</html>

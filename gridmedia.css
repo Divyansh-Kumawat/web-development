@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    background-color: #35ef44; 
+    height: 50vh;
+    grid-row-gap: 9px;
+    grid-column-gap: 9px;
+    /* grid-template-columns: 233px 353px auto;
+    grid-template-rows: 22px 68px; */
+    grid-template-columns: auto auto auto auto;
+    
+}
+.box{
+    background-color: #0ce8d2;
+    border: 2px solid red;
+}
